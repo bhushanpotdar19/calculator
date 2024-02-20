@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff') format('woff');
+    }
+.calsi-body {
+    height: 500px;
+    width: 450px;
+    background-color: #363232;
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 30px 8px #030303;
+    border: 2px solid #2c2929;;
+}
+
+.screen {
+    background-color: #437953;
+    font-size: 40px;
+    width: 400px;
+    text-align: right;
+    margin: 40px auto;
+    display: block;
+    padding: 5px 10px;
+    font-family:Digital Numbers Regular;
+
+}
+.calsi-btn{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+}
+.btn{
+    width: 60px;
+    height: 50px;
+    padding:  5px;
+    text-align:center;
+    margin: 5px;
+    border-radius: 10px;
+    border:0.5px solid black;
+    font-size: 20px;
+    font-weight: 900;
+    
+}
+.btn:hover{
+    box-shadow: 0 0 10px 2px #fff ;
+    transition: 0.5s;
+}
